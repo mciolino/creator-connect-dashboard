@@ -1,0 +1,19 @@
+{
+    "name": "creator-connect-zoom-proxy",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Local Zoom API proxy for Creator Connect Dashboard",
+    "main": "zoom-proxy.js",
+    "scripts": {
+          "start": "node zoom-proxy.js",
+          "proxy": "node zoom-proxy.js"
+    },
+    "dependencies": {
+          "cors": "^2.8.5",
+          "express": "^4.21.0",
+          "stripe": "^21.0.1"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
+}
